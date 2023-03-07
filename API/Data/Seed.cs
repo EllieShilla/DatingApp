@@ -1,12 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 using API.Entities;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 
 namespace API.Data
 {
@@ -20,7 +17,7 @@ namespace API.Data
 
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
-            var users = JsonSerializer.Deserialize<List<AppUser>>(userData);
+            var users = JsonConvert.DeserializeObject<List<AppUser>>(userData);
 
             foreach (var user in users)
             {

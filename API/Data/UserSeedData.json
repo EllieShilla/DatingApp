@@ -96,7 +96,7 @@
     "City": "Kylertown",
     "Country": "Kenya",
     "Photos": [{
-        "url": "https://randomuser.me/api/portraits/man/35.jpg",
+        "url": "https://randomuser.me/api/portraits/men/35.jpg",
         "isMain": true
     }]
 },
@@ -113,7 +113,7 @@
     "City": "Belgreen",
     "Country": "Chile",
     "Photos": [{
-        "url": "https://randomuser.me/api/portraits/man/41.jpg",
+        "url": "https://randomuser.me/api/portraits/men/41.jpg",
         "isMain": true
     }]
 },
@@ -130,7 +130,7 @@
     "City": "Alamo",
     "Country": "Dominica",
     "Photos": [{
-        "url": "https://randomuser.me/api/portraits/man/55.jpg",
+        "url": "https://randomuser.me/api/portraits/men/55.jpg",
         "isMain": true
     }]
 },
@@ -147,7 +147,7 @@
     "City": "Homestead",
     "Country": "Maldives",
     "Photos": [{
-        "url": "https://randomuser.me/api/portraits/man/53.jpg",
+        "url": "https://randomuser.me/api/portraits/men/53.jpg",
         "isMain": true
     }]
 },
@@ -164,7 +164,7 @@
     "City": "Herlong",
     "Country": "East Timor",
     "Photos": [{
-        "url": "https://randomuser.me/api/portraits/man/62.jpg",
+        "url": "https://randomuser.me/api/portraits/men/62.jpg",
         "isMain": true
     }]
 }
