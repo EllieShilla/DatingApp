@@ -28,11 +28,8 @@
         <p>{{ member.created }}</p>
       </div>
       <div class="card-footer">
-        <button type="submit"
-                [disabled]="!editForm.dirty"
-                form="editForm"
-                class="btn btn-success col-12">
-                Save changes
+        <button type="submit" [disabled]="!editForm.dirty" form="editForm" class="btn btn-success col-12">
+          Save changes
         </button>
       </div>
     </div>
@@ -62,7 +59,7 @@
 
       </tab>
       <tab heading="Edit Photos">
-        <p>Photo edit will go her</p>
+        <app-photo-editor [member]="member"></app-photo-editor>
       </tab>
     </tabset>
   </div>
