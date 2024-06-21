@@ -1,0 +1,14 @@
+.img-thumbnail {
+  margin: 25px;
+  width: 85%;
+  height: 85%;
+}
+
+.card-body {
+  padding: 0 25px;
+}
+
+.bord {
+  border-color: #fff;
+  border-radius: 1px;
+}
