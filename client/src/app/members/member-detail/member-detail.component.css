@@ -8,7 +8,18 @@
   padding: 0 25px;
 }
 
-.bord {
+.card-footer {
   border-color: #fff;
   border-radius: 1px;
+}
+
+.bord {
+  border-color: #fff;
+  padding: 10px 15px;
+  border-radius: 1px;
+}
+
+.ngx-gallery{
+  display: inline-block;
+  margin-bottom: 20px;
 }
